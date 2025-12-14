@@ -433,7 +433,9 @@ main {
   z-index: 1;
   width: max-content;
   margin-top: 10px;
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
   margin-right: 10px;
 }
 
