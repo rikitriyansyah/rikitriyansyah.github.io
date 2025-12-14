@@ -433,6 +433,8 @@ main {
   z-index: 1;
   width: max-content;
   margin-top: 10px;
+  display: inline-block;
+  margin-right: 10px;
 }
 
 .btn-certificate::before {
