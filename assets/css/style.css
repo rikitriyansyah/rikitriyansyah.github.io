@@ -898,7 +898,11 @@ main {
   display: flex;
   align-items: center;
   gap: 15px;
-  margin-bottom: 25px;
+  margin-bottom: 20px;
+}
+
+.timeline .timeline-wrapper {
+  margin-bottom: 40px;
 }
 
 .timeline-list {
@@ -921,6 +925,12 @@ main {
 }
 
 .timeline-list span {
+  color: var(--vegas-gold);
+  font-weight: var(--fw-400);
+  line-height: 1.6;
+}
+
+.timeline span {
   color: var(--vegas-gold);
   font-weight: var(--fw-400);
   line-height: 1.6;
@@ -1440,6 +1450,21 @@ textarea.form-input::-webkit-resizer {
     height: auto;
   }
 
+}
+
+/*-----------------------------------*\
+  #ORGANIZATION
+\*-----------------------------------*/
+
+.organization-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.organization-content {
+  flex: 1;
 }
 
 
