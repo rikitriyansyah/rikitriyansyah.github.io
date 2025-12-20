@@ -1461,12 +1461,30 @@ textarea.form-input::-webkit-resizer {
   align-items: flex-start;
   gap: 15px;
   margin-bottom: 20px;
+  font-weight: var(--fw-300);
+  font-size: var(--fs-8);
+}
+
+.organization-text {
+  color: var(--light-gray);
+  font-weight: var(--fw-300);
+  line-height: 1.6;
 }
 
 .organization-content {
   flex: 1;
 }
 
+.organization-list {
+  font-size: var(--fs-8);
+  margin-left: 45px;
+}
+
+.organization-list span {
+  color: var(--vegas-gold);
+  font-weight: var(--fw-300);
+  line-height: 1.6;
+}
 
 
 
